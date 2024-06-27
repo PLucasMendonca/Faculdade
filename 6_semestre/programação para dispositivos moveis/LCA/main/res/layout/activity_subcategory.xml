@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/subcategoriaTela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTela3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/bVoltar2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="MainActivity"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        app:tint="@color/white" />
+    <ImageButton
+        android:id="@+id/bDisk3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/disket"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        app:tint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/editTextNomeCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/toolbarTela3"
+        android:layout_margin="20dp"
+        android:hint="Nome da Categoria"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:background="@drawable/border"
+        />
+    <Button
+        android:id="@+id/btnExcluirCategoria"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Excluir Categoria"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextNomeCategoria"
+        android:textColor="@color/white"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="confirmarExclusaoCategoria" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_below="@+id/btnExcluirCategoria"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/principal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAddSubcategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Subcategoria"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scrollView"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginStart="16dp"
+        android:onClick="adicionarSubcategoria" />
+</RelativeLayout>

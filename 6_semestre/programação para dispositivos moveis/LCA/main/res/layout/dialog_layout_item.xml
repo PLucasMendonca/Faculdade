@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/bX"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/x"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do item..."
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/descricao_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/categoria_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoria"
+        android:visibility="gone"
+        />
+
+    <Spinner
+        android:id="@+id/subcategoria_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subcategoria"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/date_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/time_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/valor_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/bDisk"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/disket"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="9dp"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/bLixeira"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lixeira"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

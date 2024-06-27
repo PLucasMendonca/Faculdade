@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(EM PROGRESSO)Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Avaliação Física</h2>
+            
+        </div>
+        
+        <form id="form" class="form">
+            <h3>Identificação do aluno</h3>
+            <div class="form-row">
+                <div class="form-controle">
+                    <label for="username">Nome Completo:</label>
+                    <input type="text" id="username" placeholder="Digite seu nome completo...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+                <div class="form-controle">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Digite seu email...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-controle">
+                    <label for="genero">Gênero:</label>
+                    <input type="text" id="genero" placeholder="Digite seu genero...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+
+                <div class="form-controle">
+                    <label for="estadoc">Estado Civil</label>
+                    <input type="text" id="estadoc" placeholder="Digite seu estado civíl...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+            </div>
+            <div class="form-row">    
+                <div class="form-controle">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" placeholder="Digite seu endereço...">
+                    <small>Menssagem de erro</small>
+                </div>
+
+                <div class="form-controle">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" placeholder="Digite seu telefone com (ddd)...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-controle">
+                    <label for="dat_nac">Data de Nacimento</label>
+                    <input type="text" id="Idade" placeholder="Digite a data de nascimento...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+                <div class="form-controle">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" placeholder="Digite sua cidade...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Menssagem de erro</small>
+                </div>
+            </div>
+
+            <h3>Informações</h3>
+            <div class="form-controle">
+                <label for="pergunta1">Pratica alguma atividade fisica</label>
+                <input type="radio" name="escolha" id="opc" value="s">Sim
+                <input type="radio" name="escolha" id="opc" value="n">Não
+                <small>Menssagem de erro</small>
+            </div>
+
+            <div class="form-controle">
+                <label for="atividd">Qual atividade :</label>
+                <input type="text" id="atividd" placeholder="Digite nome da atividade...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Menssagem de erro</small>
+            </div>
+
+            <div class="form-controle">
+                <label for="vezes">Quantas vezes na semana:</label>
+                <input type="radio" name="escolha" id="vezes" value="1">1
+                <input type="radio" name="escolha" id="vezes" value="2">2
+                <input type="radio" name="escolha" id="vezes" value="3">3 ou mais
+            </div>
+
+            <div class="form-controle">
+                <label for="fumant">Fumante</label>
+                <input type="radio" name="escolha" id="fumant" value="s">Sim
+                <input type="radio" name="escolha" id="fumant" value="n">Não
+            </div>
+
+            <div class="form-controle">
+                <label for="saude">Problema de Saúde</label>
+                <input type="text" id="saude" placeholder="Digite qual problema...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Menssagem de erro</small>
+            </div>
+
+            <div class="form-controle">
+                <label for="pes">Peso</label>
+                <input type="text" id="pes" placeholder="Digite seu peso...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Menssagem de erro</small>
+            </div>
+
+            <div class="form-controle">
+                <label for="altu">Altura</label>
+                <input type="text" id="altu" placeholder="Digite sua altura...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Menssagem de erro</small>
+            </div>
+
+            <div class="form-controle">
+                <label for="percent">Percentual de Gordura</label>
+                <input type="text" id="percent" placeholder="Digite seu percentual de gordura...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Menssagem de erro</small>
+            </div>
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+    <script
+        src="https://kit.fontawesome.com/97cbdb5050.js" crossorigin="anonymous"
+        crossorigin="anonymous"
+   ></script>
+   <script src="./scripts.js"></script>
+</body>
+</html>

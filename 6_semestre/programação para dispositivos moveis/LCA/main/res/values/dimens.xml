@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inner_layout_top_margin_when_switch_on">140dp</dimen>
+    <dimen name="inner_layout_top_margin_when_switch_off">0dp</dimen>
+    <dimen name="view_height_when_switch_on">265dp</dimen>
+    <dimen name="view_height_when_switch_off">125dp</dimen>
+    <dimen name="edit_text_padding_start">8dp</dimen>
+    <dimen name="edit_text_width">330dp</dimen>
+    <dimen name="edit_text_height">120dp</dimen>
+
+
+</resources>
