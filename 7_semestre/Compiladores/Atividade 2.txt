@@ -1,0 +1,16 @@
+Aluno: Lucas dos Santos Vasco Mendonça
+Matrícula: 2122130042
+
+
+10 input b 
+15 input e 
+20 if e <= 0 goto 65 
+25 let r = 1 
+30 if e == 0 goto 70 
+35 let r = r * b 
+40 let e = e - 1 
+45 if e > 0 goto 3
+50 goto 70 
+65 let r = -1 
+70 print r 
+75 end

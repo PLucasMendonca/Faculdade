@@ -1,0 +1,4 @@
+Aluno: Lucas dos Santos Vasco Mendonça
+Matrícula: 2122130042
+
+Para esse tipo de situação, foi necessário separar as duas instruções porque as duas tem suas funções bem definidas e estruturadas, com a mistura desses dois tipos o código ficaria difícil de entender pois não saberíamos se esta movendo os dados para a memória, ou se estão movendo os dados da memória. Existem outros tipos de complicações como a legibilidade e a compatibilidade, mesmo parecendo uma boa ideia de junção
