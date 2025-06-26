@@ -1,0 +1,19 @@
+{
+  "acertos": {
+    "texto": 1,
+    "imagem": 1,
+    "video": 1
+  },
+  "erros": {
+    "texto": 3,
+    "imagem": 2,
+    "video": 2
+  },
+  "nota": 30.0,
+  "aprovado": false,
+  "partes": {
+    "parte1": "texto",
+    "parte2": "texto",
+    "parte3": "imagem"
+  }
+}

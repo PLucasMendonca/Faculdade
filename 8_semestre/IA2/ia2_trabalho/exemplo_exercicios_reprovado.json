@@ -1,0 +1,24 @@
+{
+  "questoes": [
+    {"tipo": "texto", "resposta_correta": "A", "resposta_aluno": "A", "enunciado": "Qual a capital do Brasil?"},
+    {"tipo": "texto", "resposta_correta": "B", "resposta_aluno": "X", "enunciado": "Qual o maior planeta do sistema solar?"},
+    {"tipo": "texto", "resposta_correta": "C", "resposta_aluno": "X", "enunciado": "Qual o símbolo químico do ouro?"},
+    {"tipo": "texto", "resposta_correta": "D", "resposta_aluno": "X", "enunciado": "Quem escreveu Dom Casmurro?"},
+    
+    {"tipo": "imagem", "resposta_correta": "A", "resposta_aluno": "X", "enunciado": "Identifique o animal na imagem."},
+    {"tipo": "imagem", "resposta_correta": "B", "resposta_aluno": "X", "enunciado": "Qual a bandeira representada na imagem?"},
+    {"tipo": "imagem", "resposta_correta": "C", "resposta_aluno": "C", "enunciado": "Identifique a obra de arte na imagem."},
+    
+    {"tipo": "video", "resposta_correta": "A", "resposta_aluno": "X", "enunciado": "Qual o tema principal do vídeo?"},
+    {"tipo": "video", "resposta_correta": "B", "resposta_aluno": "X", "enunciado": "Quem é o personagem principal no vídeo?"},
+    {"tipo": "video", "resposta_correta": "C", "resposta_aluno": "C", "enunciado": "Qual o evento histórico mostrado no vídeo?"}
+  ],
+  "aluno": {
+    "nome": "Estudante Exemplo",
+    "id": "12345"
+  },
+  "aula": {
+    "titulo": "Aula de Conhecimentos Gerais",
+    "codigo": "CG-101"
+  }
+}

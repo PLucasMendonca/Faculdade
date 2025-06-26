@@ -1,0 +1,14 @@
+{
+  "acertos": {
+    "texto": 3,
+    "imagem": 2,
+    "video": 2
+  },
+  "erros": {
+    "texto": 1,
+    "imagem": 1,
+    "video": 1
+  },
+  "nota": 70.0,
+  "aprovado": true
+}
